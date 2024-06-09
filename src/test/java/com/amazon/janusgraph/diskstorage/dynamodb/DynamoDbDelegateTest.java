@@ -33,13 +33,13 @@ import com.amazonaws.client.builder.AwsClientBuilder;
 @Category({IsolateRemainingTestsCategory.class})
 public class DynamoDbDelegateTest {
 
-    public static final String HTTP_LOCALHOST_4567 = "http://localhost:4567";
+    public static final String HTTP_LOCALHOST_8000 = "http://localhost:8000";
     public static final String HTTPS_DYNAMODB_US_EAST_1_AMAZONAWS_COM = "https://dynamodb.us-east-1.amazonaws.com";
     public static final Optional<String> NULL_ENDPOINT = null;
     public static final Optional<String> EMPTY_ENDPOINT = Optional.empty();
     public static final Optional<String> VALID_EMPTY_STRING_ENDPOINT = Optional.ofNullable("");
     public static final Optional<String> VALID_NOT_A_URL_ENDPOINT = Optional.ofNullable("invalid");
-    public static final Optional<String> VALID_DYNAMODB_LOCAL_ENDPOINT = Optional.ofNullable("http://localhost:4567");
+    public static final Optional<String> VALID_DYNAMODB_LOCAL_ENDPOINT = Optional.ofNullable("http://localhost:8000");
     public static final Optional<String> VALID_DYNAMODB_ENDPOINT = Optional.ofNullable("https://dynamodb.ap-northeast-1.amazonaws.com");
     public static final String NULL_REGION = null;
     public static final String EMPTY_REGION = "";
